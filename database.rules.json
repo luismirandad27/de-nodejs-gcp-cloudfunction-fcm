@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": "now < 1678690800000",  // 2023-3-13
+    ".write": "now < 1678690800000",  // 2023-3-13
+    "appointments": {
+      ".indexOn": ["customerId"]
+    },
+    "selfWorkoutPlansByUser": {
+      ".indexOn": ["customerId"]
+    }
+  }
+}
